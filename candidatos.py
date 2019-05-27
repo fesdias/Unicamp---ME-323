@@ -1,4 +1,6 @@
 #Candidatos A e B
+#Felipe Santana Dias - RA: 215775
+#Letícia Adrielle Luz - RA: 220208
 
 import matplotlib.pyplot as plt
 from random import randint
