@@ -46,4 +46,4 @@ def proporcao(amostra):
     print("Desvio Padrão = ", desvio)
     print("\n")
 
-proporcao(2000)
+proporcao(1000)
