@@ -36,7 +36,10 @@ def proporcao(amostra):
     desvio = math.sqrt(variancia)
 
     plt.title('Candidato A ')
-    plt.suptitle('n = 100')
+    if (amostra == 10):
+      plt.suptitle('n = 10')
+    else:
+      plt.suptitle('n = 1000')
     plt.xlabel('Amostra')
     plt.ylabel('"P Chapéu" de A')
     plt.plot(x, y)
@@ -49,3 +52,4 @@ def proporcao(amostra):
     print("\n")
 
 proporcao(1000)
+proporcao(10)
